@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "V2vN7pj5mnKtbund2IWAJbKTOvNDjXa9dNPqFkfXkYU=",
+  "Source": "FileService",
+  "BasePath": "_content/FileService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

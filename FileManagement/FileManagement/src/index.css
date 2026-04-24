@@ -1,0 +1,70 @@
+:root {
+  font-family: Inter, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #10233f;
+  background:
+    radial-gradient(circle at top left, rgba(61, 125, 255, 0.18), transparent 24%),
+    radial-gradient(circle at top right, rgba(28, 201, 255, 0.15), transparent 20%),
+    linear-gradient(180deg, #eff5ff 0%, #f8fbff 42%, #eef4fb 100%);
+  color-scheme: light;
+  --bg-page: #eef5ff;
+  --surface: #ffffff;
+  --surface-soft: #f5f9ff;
+  --surface-strong: #0d1a32;
+  --surface-strong-2: #12274b;
+  --line: #d7e3f5;
+  --line-strong: #b8cae6;
+  --text-strong: #10233f;
+  --text: #29405e;
+  --text-soft: #64748b;
+  --primary: #2563eb;
+  --primary-strong: #133eac;
+  --cyan: #17b7d8;
+  --amber: #f3b548;
+  --success: #0f9f72;
+  --danger: #e45757;
+  --shadow-lg: 0 28px 60px rgba(12, 30, 61, 0.13);
+  --shadow-md: 0 18px 34px rgba(18, 41, 79, 0.08);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(61, 125, 255, 0.18), transparent 24%),
+    radial-gradient(circle at top right, rgba(28, 201, 255, 0.15), transparent 20%),
+    linear-gradient(180deg, #eff5ff 0%, #f8fbff 42%, #eef4fb 100%);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,0 +1,3 @@
+TransactionId,Amount,Type,Description
+T001,1000,Credit,Salary
+T002,200,Debit,Food

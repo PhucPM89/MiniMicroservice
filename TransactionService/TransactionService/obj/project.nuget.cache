@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DQjFgWGxzXL+/KWvIs0kuC5x2PTf9+hche7OTn4m4wkmUGZHiimSuq8gnpKwrzMgjAC5aGrZRcSb9ojs5G5EKg==",
+  "dgSpecHash": "ATCXdIMnChR+udMJClNAW5xwRn76XRD/L90XkvZoprCAMqNbeEN5SUumBmOk/qW5NVZie3UekmAb5X61c9bNvg==",
   "success": true,
-  "projectFilePath": "D:\\C#\\TransactionService\\TransactionService\\TransactionService.csproj",
+  "projectFilePath": "D:\\C#\\MiniMicroservice\\TransactionService\\TransactionService\\TransactionService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minhp\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\minhp\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

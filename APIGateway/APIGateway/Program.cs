@@ -11,6 +11,7 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        builder.Services.AddApplicationInsightsTelemetry(builder.Configuration);
 
         builder.Services.Configure<GatewayJwtOptions>(
             builder.Configuration.GetSection(GatewayJwtOptions.SectionName));

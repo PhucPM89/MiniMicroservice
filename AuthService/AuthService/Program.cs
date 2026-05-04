@@ -22,6 +22,7 @@ public class Program
     public static async Task Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        builder.Services.AddApplicationInsightsTelemetry(builder.Configuration);
 
         var connectionString = builder.Configuration.GetConnectionString("AuthDatabase")
             ?? throw new InvalidOperationException("ConnectionStrings:AuthDatabase is not configured.");

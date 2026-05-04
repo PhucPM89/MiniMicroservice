@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\FileService\\FileService\\FileService.csproj": {}
+    "D:\\C#\\MiniMicroservice\\FileService\\FileService\\FileService.csproj": {}
   },
   "projects": {
-    "D:\\C#\\FileService\\FileService\\FileService.csproj": {
+    "D:\\C#\\MiniMicroservice\\FileService\\FileService\\FileService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\FileService\\FileService\\FileService.csproj",
+        "projectUniqueName": "D:\\C#\\MiniMicroservice\\FileService\\FileService\\FileService.csproj",
         "projectName": "FileService",
-        "projectPath": "D:\\C#\\FileService\\FileService\\FileService.csproj",
+        "projectPath": "D:\\C#\\MiniMicroservice\\FileService\\FileService\\FileService.csproj",
         "packagesPath": "C:\\Users\\minhp\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\FileService\\FileService\\obj\\",
+        "outputPath": "D:\\C#\\MiniMicroservice\\FileService\\FileService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\minhp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\C#\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\C#\\Shared\\Shared.csproj"
+              "D:\\C#\\MiniMicroservice\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\C#\\MiniMicroservice\\Shared\\Shared.csproj"
               }
             }
           }
@@ -49,6 +49,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.18, )"
@@ -89,14 +93,14 @@
         }
       }
     },
-    "D:\\C#\\Shared\\Shared.csproj": {
+    "D:\\C#\\MiniMicroservice\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Shared\\Shared.csproj",
+        "projectUniqueName": "D:\\C#\\MiniMicroservice\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\C#\\Shared\\Shared.csproj",
+        "projectPath": "D:\\C#\\MiniMicroservice\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\minhp\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Shared\\obj\\",
+        "outputPath": "D:\\C#\\MiniMicroservice\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\minhp\\AppData\\Roaming\\NuGet\\NuGet.Config",

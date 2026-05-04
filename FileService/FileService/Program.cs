@@ -21,6 +21,7 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        builder.Services.AddApplicationInsightsTelemetry(builder.Configuration);
 
         var connectionString = builder.Configuration.GetConnectionString("FileDatabase")
             ?? throw new InvalidOperationException("ConnectionStrings:FileDatabase is not configured.");
